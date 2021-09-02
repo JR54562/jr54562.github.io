@@ -5,6 +5,7 @@
 background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
 font-family: 'Roboto', sans-serif;
     padding: 20px 10px;
+    
 }
 
 /* Styling the header links */
@@ -57,10 +58,22 @@ font-family: 'Roboto', sans-serif;
 /* Add some padding on document's body to prevent content from going
  underneath the header and footer */
     body{        
-        padding-top: 60px;
+        padding-top: 20px;
         padding-bottom: 40px;
         font-family: 'Source Sans Pro', sans-serif;
         background-color: #828c7d;
 background-image: url("https://www.transparenttextures.com/patterns/cardboard-flat.png");
+box-sizing: border-box;
 
     }
+    h1 { 
+        text-shadow: 1px 1px 1px #ccc;
+    }
+    main{
+       
+    }
+    footer {
+        background: rebeccapurple;
+        position:sticky;
+
+      }
