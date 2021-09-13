@@ -10,7 +10,8 @@
 
 .Second {
   grid-area: 2 / 1;
-  flex: 1;
+  flex: 2;
+  border: 1 px;
 }
 
 .Third {
@@ -23,16 +24,25 @@
   flex: 1;
 }
 
+
+
 #paraOne {
     float: left;
     display: block;
     text-align: left;
+    
+
 }
 
 #paraTwo {
-    float: right;
+    float: left;
     display: block;
     text-align: left;
+    border: 2px solid #167239;
+    border-radius: 3px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: auto;
 }
 
 /* Styling the header with a texture and color */
@@ -41,7 +51,7 @@
   background-color: #828c7d;
   background-image: url("images/asfalt-dark.png");
   font-family: "Roboto", sans-serif;
-  padding: 20px 10px;
+  padding: 10px 10px;
   grid-area: 1 / 1;
 }
 
@@ -94,7 +104,7 @@
 /* Add some padding on document's body to prevent content from going
  underneath the header and footer */
 body {
-  display: flex;
+  /* display: flex; */
   padding-top: 20px;
   padding-bottom: 40px;
   font-family: "Source Sans Pro", sans-serif;
