@@ -1,27 +1,36 @@
 /* Setting page up for Grid display */
 .parent {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  grid-column-gap: 2px;
-  grid-row-gap: 2px;
-  flex: 1;
+  grid-template-columns: 150px auto 250px;
+  grid-gap: 1em;
+  height: auto;
+}
+header, footer {
+  grid-column: 1 / 4;
 }
 
-.Second {
-  grid-area: 2 / 1;
-  flex: 2;
-  border: 1 px;
+@media all and (max-width: 700px) {
+  aside,
+  article {
+    grid-column: 1 / 4;
+  }
+}
+.sidebar-left{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  background-color: #828c7d;
 }
 
-.Third {
-  grid-area: 3 / 1;
-  flex: 1;
-}
 
-.Fourth {
-  grid-area: 4 / 1;
-  flex: 1;
+aside,
+article,
+footer {
+  background: #eaeaea;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  height: auto;
 }
 
 
@@ -115,9 +124,9 @@ body {
 h1 {
   text-shadow: 1px 1px 1px #ccc;
 }
-main {
+/* main {
   flex: 1;
-}
+} */
 
 footer {
   background-color: grey;
