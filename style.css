@@ -7,6 +7,10 @@
 }
 header, footer {
   grid-column: 1 / 4;
+  background: #eaeaea;
+}
+.header-right{
+  background: #eaeaea;
 }
 
 @media all and (max-width: 700px) {
