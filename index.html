@@ -1,86 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Portfolio Page</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@0;1&display=swap');
-        </style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@0;1&display=swap");
+    </style>
   </head>
 
   <body>
-<!-- /* Parent has 4 rows in grid */ -->
+    <!-- /* Parent has 4 rows in grid */ -->
     <div class="parent">
-<header>
-      <!-- /* 1st row of grid */ -->
-      <div class="header">
-          <a href="default" class="logo">Jay's Portfolio</a>
+      <header>
+        <!-- /* 1st row of grid */ -->
+        <div class="header">
+          <h1 class="neonText">Hello World!</h1>
 
-        <div class="header-right">
-        <a class="active" href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-      </div>
-      </div>
-    </header>
+          <div class="header-right">
+            <a class="active" href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+      </header>
 
-<!-- /* 1st row of grid ends */ -->
+      <!-- /* 1st row of grid ends */ -->
 
-<!-- /* Sidebar - left */ -->
-<aside class="sidebar-left">
+      <!-- /* Sidebar - left */ -->
+      <aside class="sidebar-left">
+        <h3>Project Listing</h3>
+        <a href="https://cocky-meninsky-7ebd57.netlify.app/" target="_blank"
+          >Tic-Tac-Toe</a
+        >
+        <br /><br />
+        <a href="https://vibrant-hodgkin-168347.netlify.app" target="_blank"
+          >Simon game</a
+        >
+        <br /><br />
+        <a href="https://mt-app-jr.herokuapp.com/users" target="_blank"
+          >Music App</a
+        >
+        <br /><br />
+        <a href="https://dna-demo.surge.sh/meal/detail" target="_blank"
+          >Date Night App (DNA)</a
+        >
+        <div>
+          <br />
+          <h3>Languages</h3>
+          HTML, CSS, Vanilla JS, DOM, SQL, React JS
+        </div>
+      </aside>
 
-<h1 class = "neonText">Hello World!</h1>
+      <article>
+        <main>
+          
+          
+          <div>
+            <p id="paraOne">
+              My name is Jay and I am an aspiring software developer. 
+              I have a deep background in IT infrastructure, leading me
+              to try software development finally. While I am new to this, 
+              I look forward to greater developments.
+              Stay tuned!
+            </p>
+          </div>
+          <!-- //    <div><img src="images/coding.jpeg" style="height:400px; margin:100px; float: left;" alt="The Matrix"></div> -->
+        </main>
+      </article>
 
-<h3>Project Listing</h3>
-<a href="https://cocky-meninsky-7ebd57.netlify.app/" target="_blank">Tic-Tac-Toe</a>
-<br><br>
-<a href="https://vibrant-hodgkin-168347.netlify.app" target="_blank">Simon game</a>
-<br>
-<br>
-<div>
-<h3>Languages</h3>
-HTML, CSS, Vanilla JS, DOM, SQL
-</div>
+      <aside class="sidebar-right">
+        <div class="rtsPic">
+          <img src="images/AIR_AI.png" alt="AI image" />
+        </div>
 
-</aside>
+        testing
+      </aside>
+      <!-- /* Third row of grid ends */ -->
 
+      <!-- /* Fourth row of grid */ -->
 
-<article>
-<main>
-  <div><p id="paraOne">My name is Jay and I am an aspiring software developer.
-  Over time, I will add various projects and bits of work I would like to showcase 
-    for others to see.</p> </div>
-    
-   <div> <p id="paraTwo">While I am new to this, I look forward to greater 
-    developments. Stay tuned!</p></div>
+      <footer>
+        <p>Author: Jay Reische</p>
+        <p>Last Updated: 02-Nov-21</p>
+      </footer>
 
-<!-- //    <div><img src="images/coding.jpeg" style="height:400px; margin:100px; float: left;" alt="The Matrix"></div> -->
-</main></article>
-
-
-<aside class="sidebar-right">
-<div class="rtsPic">
-  <img src="images/AIR_AI.png" alt="AI image">
-</div>
-
-testing
-
-</aside>
-<!-- /* Third row of grid ends */ -->
-
-<!-- /* Fourth row of grid */ -->
-
-<footer>
-    <p>Author: Jay Reische</p>
-    <p>Last Updated: 01-Oct-21</p>
-  </footer>  
-
-<!-- /* Fourth row of grid ends */ -->
-</div>
-
+      <!-- /* Fourth row of grid ends */ -->
+    </div>
   </body>
 </html>

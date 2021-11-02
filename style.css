@@ -19,8 +19,15 @@ header, footer {
   display: block;
   align-items: center;
   justify-content: center;
-  background-color: #828c7d;
+  background-color: #023E7D;
 }
+.sidebar-left a{
+  color: #fff;
+}
+.sidebar-left h3{
+  color:#0466C8;
+}
+
 h3{
   text-decoration: underline;
 }
@@ -63,6 +70,7 @@ footer {
   align-items: center;
   justify-content: center;
   height: auto;
+  background-color: #002855
 }
 
 
@@ -71,11 +79,11 @@ footer {
     float: left;
     display: block;
     text-align: left;
-    
+    color: white;
 
 }
 
-#paraTwo {
+/* #paraTwo {
     float: left;
     display: block;
     text-align: left;
@@ -84,18 +92,21 @@ footer {
     margin-top: 15px;
     margin-bottom: 15px;
     padding: auto;
-}
+    color: white;
+} */
 
 /* Styling the header with a texture and color */
 .header {
   overflow: hidden;
-  background-color: #828c7d;
+  background-color: #002855;
   background-image: url("images/asfalt-dark.png");
   font-family: "Roboto", sans-serif;
   padding: 10px 10px;
   grid-area: 1 / 1;
 }
-
+.header h1 {
+margin-left: 15px;
+}
 /* Styling the header links */
 .header a {
   float: left;
@@ -149,27 +160,22 @@ body {
   padding-top: 20px;
   padding-bottom: 40px;
   font-family: "Source Sans Pro", sans-serif;
-  background-color: #828c7d;
+  background-color: #002855;
   background-image: url(images/cardboard-flat.png);
   box-sizing: border-box;
 }
 h1 {
   text-shadow: 1px 1px 1px #ccc;
 }
-/* main {
-  flex: 1;
-} */
+
 
 footer {
   background-color: grey;
   display: table-row;
   height: 0;
   }
-
-
-
-/* .container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-} */
+article{
+  background-image: url(./images/profile-bg3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
